@@ -1,0 +1,13 @@
+body 
+{
+  line-height: 1;
+  color: black;
+  background: white;
+}
+
+a{
+    cursor: default;
+    color: inherit;
+    text-decoration: none;
+    transition: .4s;
+}

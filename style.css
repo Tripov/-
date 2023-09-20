@@ -1,0 +1,536 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+body{
+    font-family: 400 "Outfit",sans-serif, Arial, Helvetica;
+}
+
+header{
+    padding-bottom: 61px;
+}
+
+.container{
+    justify-content: space-between;
+    display: flex;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.header__left{
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+    top: 0;
+    left: 0;
+}
+
+.logo{
+    margin: 0;
+    padding-right: 40px;
+}
+
+.li{
+    padding-right: 48px;
+}
+
+.li:hover{
+    cursor: pointer;
+    color: blue;
+    transition: .4s;
+}
+
+.li:active{
+    color: rgb(18, 18, 177);
+}
+
+
+.header__right{
+    padding-top: 40px;
+    align-items: center;
+    display: flex;
+    top: 0;
+    right: 0;
+}
+
+.icons{
+    padding-right: 47px;
+}
+
+.google__icons{
+    font-size: 15px;
+}
+
+.button__header{
+    width: 144px;
+    height: 40px;
+    align-items: center;
+    padding: 11px 15px 15px 15px;
+    border-radius: 21px;
+    background-color: black;
+    color: white;
+}
+
+.button__header:hover{
+    cursor: pointer;
+    background-color: rgb(62, 62, 246);
+    transition: .6s;
+}
+
+.button__header:active{
+    background-color: rgb(17, 17, 137);
+    color: red;
+}
+
+.block__one{
+    display: flex;
+    justify-content: space-between;
+}
+
+.NFTs{
+    position: relative;
+    bottom: -35px;
+    font-size: 13px;
+    padding-top: 178px;
+    height: 14px;
+    color: #82CBAC;
+    letter-spacing: 0.48px;
+}
+
+.Digital{
+    width: 538px;
+    font-size: 50px;
+    letter-spacing: 0.48px;
+}
+
+.Digital__text{
+    position: relative;
+    top: -30px;
+    font-size: 17px;
+    letter-spacing: 0.48px;
+    color: #2F2F2F;
+}
+
+.block__scroll__img{
+    width: 100%;
+}
+
+.block__one__right{
+    padding-top: 70px;
+}
+
+.block__one__right{
+    padding-bottom: 180px;
+}
+
+.block__scroll{
+    padding-bottom: 41px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 41px;
+    align-items: center;
+}
+
+.we__are__there{
+    padding-top: 87px;
+    justify-content: center;
+    align-items: center;
+}
+
+.we__are__hey{
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 50px;
+
+}
+
+.we__are__block{
+    display: flex;
+}
+
+.we__are__text{
+    font-size: 17px;
+    width: 620px;
+    text-align: center;
+    padding-bottom: 32px;
+}
+
+.Jack{
+    margin-left: 216px;
+    display: inline-block;
+    padding-right: 8px;
+    padding-bottom: 64px;
+    font-size: 22px;
+    width: 180px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 30px;
+    padding: 11px 65px 17px 66px;
+    line-height: 1; /* Центрирование текста по вертикали */
+}
+
+.Suni{
+    display: inline-block;
+    padding-right: 8px;
+    background-color: transparent;   
+    font-size: 22px;
+    border: 2px solid black;
+    width: 180px;
+    height: 50px;
+    text-align: center;
+    border-radius: 30px;
+    padding: 11px 65px 17px 66px;
+    line-height: 1; 
+}
+
+.Colin{
+    display: inline-block;
+    background-color: transparent;   
+    font-size: 22px;
+    border: 2px solid black;
+    width: 180px;
+    height: 50px;
+    text-align: center;
+    border-radius: 30px;
+    line-height: 1; 
+}
+
+.people__btn__block{
+    display: inline-block;
+    padding-top: 40px;
+}
+
+.peoples__block{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 64px;
+    padding-bottom: 146px;
+}
+.peoples__right{
+    padding-top: 50px;
+}
+
+.people__digital{
+    font-size: 17px;
+    color: #FF7F96;
+    line-height: 18px;   
+}
+
+.peoles__h3{
+    width: 341px;
+    size: 31px;
+    line-height: 1;
+}
+
+.peoples__text{
+    width: 492px;
+    size: 20px;
+    line-height: 26px;
+}
+
+.right__work{
+    padding-left: 63px;
+}
+
+.our__work{
+    position: relative;
+    top: 15px;
+    font-size: 34px;
+    line-height: 35px;
+}
+
+.work__h2{
+    font-size: 34px;
+    line-height: 1;
+}
+
+.work__text{
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.work__block{
+    padding-bottom: 84px;
+}
+
+.motion__block{
+    padding-bottom: 185px;
+}
+
+.motion__left{
+    position: relative;
+    bottom: 30px;
+    padding-top: 64px;
+}
+
+.circle{
+    position: relative;
+    top: 40px;
+    width: 57px;
+    background-color: #82CBAC;
+    color: #FFFFFF;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.motion__h3{
+    position: relative;
+    top: 25px;
+    font-size: 35px;
+    line-height: 36px;
+}
+
+.motion__text{
+    width: 431px;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.circle__two{
+    background-color: #FF7F96;
+}
+
+.circle__three{
+    background-color: #EAD71B;
+}
+
+.nft__img{
+    padding-bottom: 101px;
+    width: 100%;
+}
+
+.collection__h2{
+    text-align: center;
+    font-size: 55px;
+    line-height: 1;
+    padding-bottom: 73px;
+}
+
+.image__container{
+    display: flex;
+    align-items: center;
+}
+
+.image__nft{
+    width: 100%;
+    box-sizing: border-box;
+    padding-right: 66px;
+}
+
+.container__colections{
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.collection__text{
+    padding-top: 5px;
+    position: relative;
+    left: 40px;
+    font-size: 26px;
+    line-height: 1;
+    color: #2F2F2F;
+}
+
+.collection__btn__1{
+    white-space: no-wrap;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 14px 40px;
+}
+
+.collection__btn{
+    padding-top: 37px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nft__block{
+    padding-top: 100px;
+    padding-bottom: 55px;
+}
+
+.columns {
+    display: flex;
+    justify-content: space-between;
+}
+  
+.column {
+    flex: 1;
+    padding: 10px;
+}
+  
+.item {
+    margin-bottom: 100px;
+    margin-right: 38px;
+}
+
+.item__icons{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.collection__btn__2{
+    display: flex;
+    padding-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.faq__container{
+    margin-bottom: 29px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.faq__h2{
+    font-size: 55px;
+}
+
+.faq__text{
+    font-size: 22px;
+    font-weight: 24px;
+}
+
+.block__faq{
+    margin-bottom: 132px;
+}
+
+.footer__container{
+    display: flex;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.join{
+    padding-right: 85px;
+    padding-top: 96px;
+}
+
+.join__text{
+    padding-top: 20px;
+    font-size: 20px;
+    line-height: 1;
+}
+
+.materilic{
+    width: 18px;
+    color: #2F2F2F;
+}
+
+.site{
+    padding-right: 75px;
+    padding-top: 85px;
+}
+
+.site__big{
+    font-size: 20px;
+    text-align: center;
+    color: #2F2F2F;
+    line-height: 1;
+    padding-bottom: 5px;
+}
+
+.site__text{
+    font-size: 14px;
+    line-height: 15px;
+}
+
+.email-input{
+    width: 327px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+}
+
+.placeholder-text {
+    color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    pointer-events: none;
+    padding: 10px;
+    margin: 0;
+}
+
+.submit-button {
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.email-container {
+    position: relative;
+    top: -35px;
+    display: flex;
+    align-items: center;
+    width: 327px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+.email-input {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 5px;
+    font-size: 16px;    
+}
+
+.email-input::placeholder {
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.submit-button {
+    background-color: #2F2F2F;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 9px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.Stay{
+    padding-top: 86px;
+    padding-left: 100px;
+}
+
+.stay__text{
+    position: relative;
+    top: -30px;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.stay__bold{
+    font-size: 35px;
+    line-height: 28.8px;
+}
+
+.made{
+    padding-top: 127px;
+}
+
+.made__text{
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.Tripov{
+    color: #FF7F96;
+}

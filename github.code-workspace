@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../disign"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "disign"
+	}
+}
